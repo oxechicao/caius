@@ -1,0 +1,16 @@
+.link {
+    background-color: var(--red);
+    border-radius: 6px;
+    border: 0px solid rgb(174, 99, 63); 
+    padding: 10px 50px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.link > a {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white);
+    text-decoration: none;
+}

@@ -1,0 +1,8 @@
+:root {
+    --red: #f00000;
+    --white: #ffffff;
+    --yellow: #FFD200;
+    --margin-divisor: 40px;
+    --font-title: Oswald,sans-serif;
+    --font-text: roboto,sans-serif;
+}

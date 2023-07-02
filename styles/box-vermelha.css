@@ -1,0 +1,7 @@
+.box-vermelha {
+  border-radius: 30px;
+  border: solid 2px var(--red);
+  padding: 20px;
+  margin: 0 10px;
+  background-color: rgba(67,0,0,.33);
+}

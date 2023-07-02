@@ -1,0 +1,8 @@
+.imagem-4grid {
+  width: %;
+  height: 272px;
+  background-image: url('/img/4grid.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

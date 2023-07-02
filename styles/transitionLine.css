@@ -1,0 +1,56 @@
+.transition-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: relative;
+  background-color: rgba(248, 248, 248, 0.3);
+  height: 526px;
+}
+
+.transition-line>.image-left,
+.transition-line>.image-right {
+  height: 526px;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.transition-line>.image-left {
+  left: 0;
+  width: 50%;
+  background-position-x: left;
+  z-index: 1;
+}
+
+.transition-line>.image-right {
+  right: 0;
+  width: 50%;
+  background-position-x: right;
+  z-index: 2;
+}
+
+.transition-line>.transition-divisor {
+  position: absolute;
+  width: 2px;
+  height: 526px;
+  background-color: white;
+  z-index: 3;
+}
+
+.transition-line>.transition-line-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px; 
+  width: 40px;
+  z-index: 4;
+  border: 2px solid white;
+  color: white;
+  background: black;
+  border-radius: 100%
+}

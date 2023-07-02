@@ -1,0 +1,56 @@
+body {
+    background: #000;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-text);
+}
+
+main {
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    margin: var(--margin-divisor) 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    font-family: var(--font-title);
+    line-height: 30px;
+    font-weight: 700;
+}
+
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 19px;
+    font-size: 16px;
+}

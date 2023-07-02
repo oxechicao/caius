@@ -1,0 +1,28 @@
+.texto-comum {
+    margin: 0px 50px;
+}
+
+.negrito {
+  font-weight: 700;
+}
+
+.texto-centralizado {
+  text-align: center;
+}
+
+.texto-amarelo {
+  color: var(--yellow)
+}
+
+.texto-vermelho {
+  color: var(--red);
+}
+
+.texto-grande {
+  font-size: 30px;
+}
+
+
+.texto-pequeno {
+  font-size: 13px;
+}
